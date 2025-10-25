@@ -56,6 +56,8 @@ int main(void) {
                     int randomizedParticleIndex = particleLevelIndex + randomParticleOffset;
                     if (randomizedParticleIndex < 0) {
                         randomizedParticleIndex = 0;
+                    } else if (randomizedParticleIndex >= sizeof(particleCharacters)) {
+                        printf(" ");
                     }
 
                     printf("%c", particleCharacters[randomizedParticleIndex]);
