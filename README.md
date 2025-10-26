@@ -1,6 +1,7 @@
-# Particle Engine
+# Animated Coffee Cup
 
-Vanilla C project to render randomized particles on a coffee cup, to practice C
+Pure C steam particles on top of coffee cup to standard output, to get the basics of C
+
 
 https://github.com/user-attachments/assets/107fe728-586e-4f37-b38c-eeae47398014
 
